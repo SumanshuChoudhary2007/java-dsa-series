@@ -1,4 +1,5 @@
-package questions_practice;
+package maths;
+
 import java.util.Scanner;
 
 public class prime_no {

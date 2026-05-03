@@ -1,4 +1,5 @@
-package questions_practice;
+package patterns;
+
 import java.util.Scanner;
 
 public class star_pattern {

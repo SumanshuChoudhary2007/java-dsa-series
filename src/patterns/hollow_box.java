@@ -1,5 +1,5 @@
-package questions_practice;
-import java.sql.SQLOutput;
+package patterns;
+
 import java.util.Scanner;
 
 public class hollow_box {
