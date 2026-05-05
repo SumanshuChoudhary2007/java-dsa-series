@@ -52,11 +52,19 @@ public class Arraylist {
 
         // i want to iterate list using iterator
         Iterator<Integer> iterator= list.iterator();
+
         while(iterator.hasNext()){
             System.out.println("element: "+ iterator.next());
         }
 
+        System.out.println(list.get(0)); //return element at particular ind
 
+        list.set(0,100); // replace the existing element at particular ind can't create new element only replace
 
+        System.out.println(list.get(0));
+
+        Object[] arr=list.toArray();// converted to type array
+
+        System.out.println(arr.getClass());// give the 
     }
 }
